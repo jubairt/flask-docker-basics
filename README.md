@@ -60,9 +60,9 @@ docker run -p 5000:5000 jubiii/welcome-app
 
 ---
 
-## 📡 Docker Hub Image
+## 📡 Docker Hub Link
 
-🛰️ **Image Link:** [jubiii/welcome-app](https://hub.docker.com/r/jubiii/welcome-app)
+🛰️ **Link:** [jubiii/welcome-app](https://hub.docker.com/repository/docker/jubiii/welcome-app/general)
 
 Run it with:
 
@@ -71,26 +71,11 @@ docker pull jubiii/welcome-app
 docker run -p 5000:5000 jubiii/welcome-app
 ```
 
-App will be available at: [http://localhost:5000](http://localhost:5000)
-
 ---
 
-## 💡 Future Ideas
+## ✅ Conclusion
 
-- Add `/health` and `/status` routes  
-- Include a Docker Compose setup  
-- Add CI/CD pipeline using GitHub Actions  
-- Unit tests for endpoints  
+This project served as a foundational step into the world of Docker and containerized Python applications. By creating a minimal Flask app, building a Docker image, and pushing it to Docker Hub, it showcases the complete lifecycle of containerizing and deploying a microservice. 
 
----
+This setup lays the groundwork for scaling into more complex systems involving APIs, databases, and orchestration tools like Docker Compose and Kubernetes.
 
-## 👨‍💻 Author
-
-- **GitHub:** [@jubiii](https://github.com/jubiii)
-- **Docker Hub:** [jubiii](https://hub.docker.com/u/jubiii)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE)
