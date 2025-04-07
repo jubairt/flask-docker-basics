@@ -6,7 +6,7 @@ A minimal Flask application containerized using Docker. This project is part of 
 
 ## 🚀 Project Overview
 
-This project runs a simple "Hello World" Flask app inside a Docker container. It includes basic use of `pandas` and `numpy` to simulate real-world dependencies.
+This project runs a simple "Hello World" Flask app inside a Docker container. It's a minimal example focused on learning Docker with Python web applications, using only Flask as a dependency.
 
 ---
 
